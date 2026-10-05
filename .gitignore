@@ -1,0 +1,26 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Environnement et caches
+.ipynb_checkpoints/
+.DS_Store
+
+# Données et fichiers générés volumineux
+data/
+models/
+embeddings/
+
+# Configuration locale et secrets
+.env
+
+# OpenClassrooms related files
+cours/*
+instructions/*
