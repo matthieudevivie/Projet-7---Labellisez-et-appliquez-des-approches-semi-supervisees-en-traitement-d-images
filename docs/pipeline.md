@@ -1,4 +1,5 @@
 ```mermaid
+%%{init: {"themeVariables": {"fontFamily": "Arial, sans-serif"}, "flowchart": {"htmlLabels": false}}}%%
 flowchart TD
     subgraph E1["Étape 1 — Nettoyage des données (01_exploration)"]
         A["Images brutes<br/>100 labellisées + 1406 sans label"] --> B["Suppression des doublons (MD5)"]
