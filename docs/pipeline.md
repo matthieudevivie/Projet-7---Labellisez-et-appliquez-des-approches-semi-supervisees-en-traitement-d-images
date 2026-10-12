@@ -26,6 +26,7 @@ flowchart TD
     end
     EMB --> S
     TRF -. "labels du train fort uniquement" .-> ARI
+        TRF -. "vote" .-> VOTE
     VOTE --> LF[("data/labels_faibles.csv<br/>1311 images : 805 cancer / 506 normal<br/>justes à ~83 % sur le train")]
 
     subgraph E4["Étape 4 — Approche semi-supervisée (04_semi_supervise)"]
